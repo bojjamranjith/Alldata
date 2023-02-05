@@ -1,0 +1,52 @@
+package chrome;
+
+public class forloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*for(int i=0;i<5;i++)
+		{
+			System.out.println(i+"  "+"Ranjith Live tech");
+					
+		}
+		for(int i=1;i<=4;i=i+2)
+		{
+			System.out.println("@@@Ranjith@@");
+		*/
+		
+		
+		//for(int i=0;i<10;i=i+1)
+	//	{
+	//		System.out.println(i+"");
+	//	}
+
+		/*int i=0;
+		do
+		{
+			System.out.println(i);
+			i=i+1;
+			
+	*///	}while(i<11);
+	int n=5;
+		
+		for(int a=1;a<=n;a++)
+		{
+			for(int b=1;b<=a;b++)
+			{
+				
+				
+				System.out.print(a+" ");
+				
+			}
+		System.out.println();
+		}
+		
+		 
+		
+		
+		
+	}
+
+
+}
+

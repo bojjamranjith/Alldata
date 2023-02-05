@@ -1,0 +1,30 @@
+package com.OrangeHRMApplication;
+
+import org.testng.annotations.Test;
+
+public class OrangeHRMLogInPageTest {
+	
+	OHRMTesting lip;
+
+	@Test(priority=1,description=" validating OrangeHRM Application LogIN Page Logo Test ")
+	public void logInPageLogoValidationTest()
+	{
+	lip= new OHRMTesting();
+	lip.logInPageLogoValidation();
+	}
+
+	@Test(priority=2,description=" validating OrangeHRM Application LogIN Page Text Test ")
+	public void logInPageTextValidationTest()
+	{
+	lip= new OHRMTesting();
+	lip.logInPageTextValidation();
+	}
+
+	@Test(priority=3,description=" validating OrangeHRM Application LogIN Page LogIn Funcationality Test ")
+	public void logInPageLogInFuncationalityTest()
+	{
+	lip= new OHRMTesting();
+	lip.logInPageLogInFuncationality("Admin", "admin123");
+	}
+
+}

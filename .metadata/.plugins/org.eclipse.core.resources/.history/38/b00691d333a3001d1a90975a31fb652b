@@ -1,0 +1,12 @@
+Feature: Login
+
+Scenario: Successful Login with valid credentials
+      
+       Given User launch chrome Browser
+       When User open url address
+       And User Enter Emailid  and password 
+       And Click Login page
+       Then Title should be
+       When User click Logout 
+       Then Page Title should be 
+       And Close Browser
